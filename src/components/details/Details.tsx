@@ -1,10 +1,12 @@
 import * as React from "react";
 
+import styles from "../../styles.scss";
 import "./Details.scss";
-
+console.log(styles);
 export function Details() {
+
   return (
-    <div className="Details">
+    <div className={styles.ImportedClass} id="details_div">
       <div className="repo-link">
         <a href="https://github.com/fuse-box/react-example" target="_blank">
           https://github.com/fuse-box/react-example
