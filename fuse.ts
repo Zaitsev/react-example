@@ -4,10 +4,10 @@ class Context {
     runServer;
     getConfig = () =>
         fusebox({
-            target: "browser",
+            target: "electron",
             entry: "src/index.tsx",
             plugins: [
-                pluginSass('*.sass', {
+                pluginSass('*.scss', {
                     asModule: { scopeBehaviour: 'local' },
                 })
             ],
