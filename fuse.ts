@@ -6,6 +6,7 @@ class Context {
         fusebox({
             target: "electron",
             entry: "src/index.tsx",
+            sourceMap:false,
             plugins: [
                 pluginSass('*.scss', {
                     asModule: { scopeBehaviour: 'local' },
