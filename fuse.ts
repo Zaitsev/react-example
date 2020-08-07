@@ -6,10 +6,13 @@ class Context {
         fusebox({
             target: "electron",
             entry: "src/index.tsx",
-            sourceMap:false,
+            sourceMap: false,
+            // alias: {
+            //     'd3-selection': 'd3-selection/dist/d3-selection.js',
+            // },
             plugins: [
                 pluginSass('*.scss', {
-                    asModule: { scopeBehaviour: 'local' },
+                    asModule: {scopeBehaviour: 'local'},
                 })
             ],
             webIndex: {

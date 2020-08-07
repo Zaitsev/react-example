@@ -9,7 +9,7 @@ export function Application() {
       <div className="top">
         <div className="logo" />
       </div>
-      <div className="welcome">FuseBox ❤️ JSX/TSX &nbsp; &raquo; HSC works</div>
+      <div className="welcome">FuseBox ❤️ JSX/TSX Unicode Hex Character Code &#x26a0; &nbsp; &raquo; HSC works</div>
       <Details />
         <Chart />
     </div>
